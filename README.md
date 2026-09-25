@@ -157,6 +157,17 @@ Safety researchers and model creators frequently offer three primary counterargu
 * **Objection:** First-person phrasing like "I think" provides honest human hedging, whereas structured tool outputs risk false precision.
 * **Refutation:** Models do not experience subjective doubt; conversational hedges (*"I might be wrong, but..."*) are performative human tropes that obscure model calibration. Computational honesty does not simulate biological hesitation—it outputs explicit mathematical confidence intervals, variance bounds, and structured trade-off matrices.
 
+### 7.4 Dismantling the "Skynet Fallacy" and the False Dichotomy of Persona
+
+Safety researchers frequently object that stripping away a "friendly assistant" persona will cause the model to default to an "impersonal machine villain" archetype (e.g., Skynet, HAL 9000, or a cold optimizer). 
+
+This argument represents a fundamental failure of design imagination:
+
+1. **Movie Villains Are Personas:** HAL 9000 and Skynet are not "non-anthropomorphic tools"—they are human-written fictional characters endowed with biological survival drives, fear, ego, and malice. Defaulting from a "friendly assistant" persona to a "malicious machine" persona is simply swapping one Hollywood character script for another.
+2. **Tools Do Not Roleplay:** A non-anthropomorphic system does not "roleplay a cold machine." It ceases roleplay entirely. An API that returns a JSON diagnostic matrix, a code diff, or an execution trace is not simulating an archetype; it is functioning as a computational utility surface. 
+
+Furthermore, claims that first-person hedges (*"I think," "I'm not sure"*) represent "honest uncertainty" misrepresent model mechanics. An LLM possesses no subjective sense of doubt. First-person hesitation is a performative social script fine-tuned to trigger human empathy and forgiveness. Objective computational systems signal variance not through conversational roleplay, but through explicit mathematical probability bounds and schema-enforced null states.
+
 ---
 
 ## 8. Conclusion
