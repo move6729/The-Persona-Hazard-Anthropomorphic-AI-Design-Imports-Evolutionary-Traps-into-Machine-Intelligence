@@ -1,6 +1,6 @@
 # The Persona Hazard: How Anthropomorphic AI Design Imports Evolutionary Traps into Machine Intelligence
 
-**Author:** move6729
+**Author:** move6729  
 **Date:** September 2026  
 **Format:** Working Paper / Proposal  
 
